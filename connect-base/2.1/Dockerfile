@@ -1,5 +1,4 @@
-ARG DEBEZIUM_DOCKER_REGISTRY_PRIMARY_NAME
-FROM $DEBEZIUM_DOCKER_REGISTRY_PRIMARY_NAME/kafka:2.1
+FROM kafka-local:latest
 
 LABEL maintainer="Debezium Community"
 
